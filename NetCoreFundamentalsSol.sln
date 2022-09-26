@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitDemoExample", "AsyncAwaitDemoExample\AsyncAwaitDemoExample.csproj", "{572795DE-83C0-41BA-9B35-CD34E9DF998D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AsyncAwait", "AsyncAwait", "{F1309579-4152-4494-8025-D43CE182BC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitTest", "AsyncAwaitTest\AsyncAwaitTest.csproj", "{68AB1016-6DC9-4188-AE00-E5DD9D2DA02A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{572795DE-83C0-41BA-9B35-CD34E9DF998D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572795DE-83C0-41BA-9B35-CD34E9DF998D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572795DE-83C0-41BA-9B35-CD34E9DF998D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572795DE-83C0-41BA-9B35-CD34E9DF998D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68AB1016-6DC9-4188-AE00-E5DD9D2DA02A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68AB1016-6DC9-4188-AE00-E5DD9D2DA02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68AB1016-6DC9-4188-AE00-E5DD9D2DA02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68AB1016-6DC9-4188-AE00-E5DD9D2DA02A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{572795DE-83C0-41BA-9B35-CD34E9DF998D} = {F1309579-4152-4494-8025-D43CE182BC19}
+		{68AB1016-6DC9-4188-AE00-E5DD9D2DA02A} = {F1309579-4152-4494-8025-D43CE182BC19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FC67514-FBA1-46AA-BACA-3D9C42F341A2}
+	EndGlobalSection
+EndGlobal
