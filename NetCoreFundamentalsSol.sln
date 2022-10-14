@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitDemoExample", "AsyncAwaitDemoExample\AsyncAwaitDemoExample.csproj", "{572795DE-83C0-41BA-9B35-CD34E9DF998D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitDemoExample", "AsyncAwaitDemoExample\AsyncAwaitDemoExample.csproj", "{572795DE-83C0-41BA-9B35-CD34E9DF998D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AsyncAwait", "AsyncAwait", "{F1309579-4152-4494-8025-D43CE182BC19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitTest", "AsyncAwaitTest\AsyncAwaitTest.csproj", "{68AB1016-6DC9-4188-AE00-E5DD9D2DA02A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitTest", "AsyncAwaitTest\AsyncAwaitTest.csproj", "{68AB1016-6DC9-4188-AE00-E5DD9D2DA02A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegate", "Delegate", "{9FA224DF-4960-467E-83DA-BCBDF5A0D810}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateDemo1", "DelegateDemo1\DelegateDemo1.csproj", "{D8CF23EE-6B57-4D75-87AD-E10F5265D30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegate", "MulticastDelegate\MulticastDelegate.csproj", "{E3252037-A64C-4AC9-A63E-14640E8A9853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethod", "AnonymousMethod\AnonymousMethod.csproj", "{2EAD016B-350F-493D-9F40-77AEF712A400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +31,18 @@ Global
 		{68AB1016-6DC9-4188-AE00-E5DD9D2DA02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68AB1016-6DC9-4188-AE00-E5DD9D2DA02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68AB1016-6DC9-4188-AE00-E5DD9D2DA02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8CF23EE-6B57-4D75-87AD-E10F5265D30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CF23EE-6B57-4D75-87AD-E10F5265D30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8CF23EE-6B57-4D75-87AD-E10F5265D30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8CF23EE-6B57-4D75-87AD-E10F5265D30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3252037-A64C-4AC9-A63E-14640E8A9853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3252037-A64C-4AC9-A63E-14640E8A9853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3252037-A64C-4AC9-A63E-14640E8A9853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3252037-A64C-4AC9-A63E-14640E8A9853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAD016B-350F-493D-9F40-77AEF712A400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAD016B-350F-493D-9F40-77AEF712A400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAD016B-350F-493D-9F40-77AEF712A400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAD016B-350F-493D-9F40-77AEF712A400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +50,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{572795DE-83C0-41BA-9B35-CD34E9DF998D} = {F1309579-4152-4494-8025-D43CE182BC19}
 		{68AB1016-6DC9-4188-AE00-E5DD9D2DA02A} = {F1309579-4152-4494-8025-D43CE182BC19}
+		{D8CF23EE-6B57-4D75-87AD-E10F5265D30B} = {9FA224DF-4960-467E-83DA-BCBDF5A0D810}
+		{E3252037-A64C-4AC9-A63E-14640E8A9853} = {9FA224DF-4960-467E-83DA-BCBDF5A0D810}
+		{2EAD016B-350F-493D-9F40-77AEF712A400} = {9FA224DF-4960-467E-83DA-BCBDF5A0D810}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8FC67514-FBA1-46AA-BACA-3D9C42F341A2}
